@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>RocketLang Compiler</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🚀 RocketLang Compiler</h1>
+
+<textarea id="code">
+print Hello World
+</textarea>
+
+<br><br>
+
+<button onclick="compileCode()">Compile</button>
+
+<h2>Output</h2>
+
+<pre id="output"></pre>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
